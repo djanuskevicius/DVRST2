@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+.top-line {
+  background-color: rgb(22, 22, 22);
+  height: 70px;
+  width: 100%;
+}
+
+.top-line input {
+  border: 1px solid rgb(51, 51, 51);
+  height: 40px;
+  width: 450px;
+  padding-left: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  font-size: 16px;
+  float: left;
+}
+
+.top-line input:focus {
+  background-color: rgb(29, 29, 29);
+  border: 1px solid rgb(88, 88, 88);
+  outline: 0 none;
+}
+
+.toptext {
+  color: white;
+  font-size: 20px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.main {
+  background-color: black;
+  height: 310px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -100%);
+  width: 100%;
+} 
+
+.main img {
+  display: block;
+  height: 250px;
+  border-radius: 100%;
+  margin: 30px 825px 0 0;
+  float: right;
+}
+.main p {
+  color: rgb(255, 255, 255);
+}
+
+.text1 { 
+  position: absolute;
+  font-size: 40px;
+  float: left;
+
+  transform: translate(37rem, 7rem);
+}
+
+.text2 {
+  position: absolute;
+
+  transform: translate(40rem, 9.4rem);
+}
+
+.soundcloud {
+  position: relative;
+  transform: translate(5%, 127%);
+  padding-bottom: 20px;
+}
+
+.maptext {
+  transform: translate(-0.8rem, 0);
+}
+
+.location {
+  position: absolute;
+  float: right;
+  transform: translate(56rem, 39.7rem);
+}
+
+.musictext {
+  transform: translate(6rem, 0);
+}
+
+.fillthisup {
+  transform: translate(5rem, 0);
+}
+
+.desctext {
+  display: flex;
+  justify-content: space-between;
+  transform: translate(0, 5rem);
+  margin: 0 100px;
+
+  color: white;
+}
+
+form {
+  color: white;
+  position: absolute;
+  transform: translate(50rem, 13rem);
+  width: 200px;
+  font-size: 25px;
+}
+
+.reg {
+  border: 1px solid rgb(51, 51, 51);
+  height: 40px;
+  width: 450px;
+  padding-left: 10px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submitbutton {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 3px;
+  border: 1px solid rgb(51, 51, 51);
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.submitbutton:hover {
+  cursor: pointer;
+  background-color: rgb(88, 88, 88);
+}
+
+svg {
+  height: 15px;
+  color: white;
+  position: absolute;
+  transform: translate(38.9rem, -18rem);
+}
+
+audio {
+  transform: translate(0, 50rem);
+  margin: 0 10.5rem 0 10rem;
+}
+
+video {
+  width: 33%;
+  transform: translate(0, 50rem);
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.enjoy {
+  color: white;
+  width: 450px;
+  transform: translate(46rem, 45rem);
+}
